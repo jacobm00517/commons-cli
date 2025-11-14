@@ -1,0 +1,5 @@
+[MASTER] 16:08:25.749 [main] ERROR ExternalProcessHandler - Class org.apache.commons.cli.AlreadySelectedException. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 16:08:25.899 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 16:08:26.012 [main] ERROR TestGeneration - failed to write statistics data

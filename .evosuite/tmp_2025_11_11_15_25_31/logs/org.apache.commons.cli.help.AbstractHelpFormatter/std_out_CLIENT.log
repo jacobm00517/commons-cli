@@ -1,0 +1,95 @@
+* Starting client
+* Connecting to master process on port 13279
+* Analyzing classpath: 
+  - /Users/jacobabarrota/git/commons-cli/target/test-classes
+  - /Users/jacobabarrota/git/commons-cli/target/classes
+  - /Users/jacobabarrota/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar
+  - /Users/jacobabarrota/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+  - /Users/jacobabarrota/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.13.4/junit-jupiter-api-5.13.4.jar
+  - /Users/jacobabarrota/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar
+  - /Users/jacobabarrota/.m2/repository/org/junit/platform/junit-platform-commons/1.13.4/junit-platform-commons-1.13.4.jar
+  - /Users/jacobabarrota/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+  - /Users/jacobabarrota/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.13.4/junit-jupiter-engine-5.13.4.jar
+  - /Users/jacobabarrota/.m2/repository/org/junit/platform/junit-platform-engine/1.13.4/junit-platform-engine-1.13.4.jar
+  - /Users/jacobabarrota/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.13.4/junit-jupiter-params-5.13.4.jar
+  - /Users/jacobabarrota/.m2/repository/org/junit-pioneer/junit-pioneer/1.9.1/junit-pioneer-1.9.1.jar
+  - /Users/jacobabarrota/.m2/repository/org/junit/platform/junit-platform-launcher/1.13.4/junit-platform-launcher-1.13.4.jar
+  - /Users/jacobabarrota/.m2/repository/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar
+  - /Users/jacobabarrota/.m2/repository/org/apache/commons/commons-text/1.14.0/commons-text-1.14.0.jar
+  - /Users/jacobabarrota/.m2/repository/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar
+  - /Users/jacobabarrota/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar
+  - /Users/jacobabarrota/.m2/repository/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.jar
+  - /Users/jacobabarrota/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.jar
+  - /Users/jacobabarrota/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.cli.help.AbstractHelpFormatter
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 15:49:54.288 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/jacobabarrota/git/commons-cli/.evosuite/evosuite-seeds/org.apache.commons.cli.help.AbstractHelpFormatter.seed
+* Loaded 0 tests from /Users/jacobabarrota/git/commons-cli/.evosuite/evosuite-seeds/org.apache.commons.cli.help.AbstractHelpFormatter.seed
+* Total number of test goals: 
+  - Line 91
+  - Branch 56
+  - Exception 0
+  - MutationFactory 110
+  - Output 44
+  - Method 29
+  - MethodNoException 29
+  - CBranchFitnessFactory 56
+* Using seed 1762894189533
+* Starting evolution
+* Search finished after 57s and 117 generations, 78180 statements, best individual has fitness: 33.57692307692308
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 99%
+* Total number of goals: 91
+* Number of covered goals: 90
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 56
+* Number of covered goals: 55
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 12
+* Number of covered goals: 12
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 95%
+* Total number of goals: 110
+* Number of covered goals: 105
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 61%
+* Total number of goals: 44
+* Number of covered goals: 27
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 83%
+* Total number of goals: 29
+* Number of covered goals: 24
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 83%
+* Total number of goals: 29
+* Number of covered goals: 24
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 98%
+* Total number of goals: 56
+* Number of covered goals: 55
+* Generated 47 tests with total length 216
+* Resulting test suite's coverage: 90% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 32%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'AbstractHelpFormatter_ESTest' to /Users/jacobabarrota/git/commons-cli/.evosuite/tmp_2025_11_11_15_25_31/tests
+* Done!
+

@@ -1,0 +1,18 @@
+[MASTER] 15:52:33.392 [main] ERROR ClientServices - Failed to register client services
+java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: 
+	java.io.EOFException
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:307) ~[na:1.8.0_462]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202) ~[na:1.8.0_462]
+	at sun.rmi.server.UnicastRef.newCall(UnicastRef.java:343) ~[na:1.8.0_462]
+	at sun.rmi.registry.RegistryImpl_Stub.rebind(RegistryImpl_Stub.java:150) ~[na:1.8.0_462]
+	at org.evosuite.rmi.ClientServices.registerServices(ClientServices.java:67) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.ClientProcess.run(ClientProcess.java:82) [evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.ClientProcess.main(ClientProcess.java:203) [evosuite-master-1.0.6.jar:1.0.6]
+Caused by: java.io.EOFException: null
+	at java.io.DataInputStream.readByte(DataInputStream.java:267) ~[na:1.8.0_462]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246) ~[na:1.8.0_462]
+	... 6 common frames omitted
+[MASTER] 15:52:33.418 [main] ERROR ClientProcess - Error when generating tests for: org.apache.commons.cli.help.TextStyle with seed 1762894348074. Configuration id : default
+java.lang.RuntimeException: Could not connect to master process on port 16494
+	at org.evosuite.ClientProcess.run(ClientProcess.java:87) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.ClientProcess.main(ClientProcess.java:203) ~[evosuite-master-1.0.6.jar:1.0.6]
